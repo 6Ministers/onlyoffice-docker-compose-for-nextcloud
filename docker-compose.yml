@@ -32,5 +32,3 @@ services:
 
     depends_on:
       - caddy
-
-
