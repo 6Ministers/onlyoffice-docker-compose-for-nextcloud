@@ -1,0 +1,36 @@
+version: "3.8"
+
+services:
+  caddy:
+    image: caddy:alpine
+    restart: unless-stopped
+    container_name: caddy
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - ./certs:/certs
+      - ./config:/config
+      - ./data:/data
+      - ./sites:/srv
+    network_mode: "host"
+
+  onlyoffice-documentserver:
+    image: thomisus/onlyoffice-documentserver-unlimited:7.5.1
+    restart: always
+    environment:
+      - JWT_ENABLED=true
+      - JWT_HEADER=AuthorizationJwt
+
+    ports:
+      - 127.0.0.1:2291:80
+    volumes:
+      - ./onlyoffice/logs:/var/log/onlyoffice
+      - ./onlyoffice/data:/var/www/onlyoffice/Data
+      - ./onlyoffice/lib:/var/lib/onlyoffice
+      - ./onlyoffice/rabbitmq:/var/lib/rabbitmq
+      - ./onlyoffice/redis:/var/lib/redis
+      - ./onlyoffice/db:/var/lib/postgresql
+
+    depends_on:
+      - caddy
+
+
