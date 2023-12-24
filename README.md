@@ -61,7 +61,7 @@ https://subdomain.your-domain:443 {
 docker-compose up -d
 ```
 
-Then open `https://nextcloude.domain.com:` to access OnlyOffice
+Then open `https://onlyofice.domain.com:` to access OnlyOffice
 
 On this page, you will need to specify the settings for your installation.
 
