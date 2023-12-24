@@ -69,8 +69,11 @@ A random secret is generated automatically if a custom secret has not been added
 ``` bash
  sudo docker exec 728397ce5f45 /var/www/onlyoffice/documentserver/npm/json -f /etc/onlyoffice/documentserver/local.json 'services.CoAuthoring.secret.session.string'
 ```
-Подключите только офис to NextCloude
 
+![Screenshot_77896](https://github.com/6Ministers/onlyoffice-for-nextcloude/assets/11208423/d49c08a1-8f21-43ce-badb-4fa75390b570)
+
+
+Connect your Only Office to Nextcloud
 
 ## OnlyOffice container management
 
