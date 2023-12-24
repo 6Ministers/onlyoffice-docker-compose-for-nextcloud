@@ -22,7 +22,7 @@ Install docker and docker-compose:
 curl -s https://raw.githubusercontent.com/6Ministers/onlyoffice-for-nextcloude/master/setup.sh | sudo bash -s
 ```
 
-Download nextcloud instance:
+Download onlyoffice instance:
 
 
 ``` bash
