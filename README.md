@@ -26,7 +26,7 @@ Download onlyoffice instance:
 
 
 ``` bash
-curl -s https://raw.githubusercontent.com/6Ministers/onlyoffice-for-nextcloude/master/download.sh | sudo bash -s nextcloud
+curl -s https://raw.githubusercontent.com/6Ministers/onlyoffice-for-nextcloude/master/download.sh | sudo bash -s onlyoffice
 ```
 
 If `curl` is not found, install it:
@@ -40,7 +40,7 @@ $ sudo yum install curl
 Go to the catalog
 
 ``` bash
-cd nextcloud
+cd onlyoffice
 ```
 
 To change the domain in the `Caddyfile` to your own
