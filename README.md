@@ -64,6 +64,7 @@ docker-compose up -d
 Then open `https://onlyofice.domain.com:` to access OnlyOffice
 
 On this page, you will need to specify the settings for your installation.
+![Uploading Screenshot_77896.png…]()
 
 
 ## OnlyOffice container management
