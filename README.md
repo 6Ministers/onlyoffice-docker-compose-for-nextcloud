@@ -65,6 +65,12 @@ Then open `https://onlyofice.domain.com:` to access OnlyOffice
 
 On this page, you will need to specify the settings for your installation.
 
+A random secret is generated automatically if a custom secret has not been added during installation. To obtain the default secret, run this command:
+``` bash
+ sudo docker exec 728397ce5f45 /var/www/onlyoffice/documentserver/npm/json -f /etc/onlyoffice/documentserver/local.json 'services.CoAuthoring.secret.session.string'
+```
+Подключите только офис to NextCloude
+
 
 ## OnlyOffice container management
 
