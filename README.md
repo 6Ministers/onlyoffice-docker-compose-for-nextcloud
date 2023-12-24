@@ -74,6 +74,7 @@ A random secret is generated automatically if a custom secret has not been added
 
 
 Connect your Only Office to Nextcloud
+
 ![Screenshot_76](https://github.com/6Ministers/onlyoffice-for-nextcloude/assets/11208423/89471cac-c7b8-4a9d-9bad-6e0e9162b823)
 
 ## OnlyOffice container management
