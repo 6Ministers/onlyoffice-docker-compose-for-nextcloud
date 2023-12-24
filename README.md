@@ -2,7 +2,7 @@
 
 ## Quick Installation
 
-**Before starting the instance, direct the domain (subdomain) to the ip of the server where NextCloud will be installed!**
+**Before starting the instance, direct the domain (subdomain) to the ip of the server where OnlyOffice will be installed!**
 
 ## 1. OnlyOffice Server Requirements
 From and more
