@@ -64,7 +64,8 @@ docker-compose up -d
 Then open `https://onlyofice.domain.com:` to access OnlyOffice
 
 On this page, you will need to specify the settings for your installation.
-![Uploading Screenshot_77896.png…]()
+
+![Screenshot_77896](https://github.com/6Ministers/onlyoffice-for-nextcloude/assets/11208423/d49c08a1-8f21-43ce-badb-4fa75390b570)
 
 
 ## OnlyOffice container management
