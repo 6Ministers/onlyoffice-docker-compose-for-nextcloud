@@ -79,7 +79,7 @@ Connect your Only Office to Nextcloud
 
 ## OnlyOffice container management
 
-**Run nextcloude**:
+**Run onlyoffice**:
 
 ``` bash
 docker-compose up -d
