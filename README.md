@@ -19,14 +19,14 @@ sudo apt-get purge needrestart
 Install docker and docker-compose:
 
 ``` bash
-curl -s https://raw.githubusercontent.com/6Ministers/onlyoffice-for-nextcloude/master/setup.sh | sudo bash -s
+curl -s https://raw.githubusercontent.com/6Ministers/onlyoffice-docker-compose-for-nextcloude/master/setup.sh | sudo bash -s
 ```
 
 Download onlyoffice instance:
 
 
 ``` bash
-curl -s https://raw.githubusercontent.com/6Ministers/onlyoffice-for-nextcloude/master/download.sh | sudo bash -s onlyoffice
+curl -s https://raw.githubusercontent.com/6Ministers/onlyoffice-docker-compose-for-nextcloude/master/download.sh | sudo bash -s onlyoffice
 ```
 
 If `curl` is not found, install it:
